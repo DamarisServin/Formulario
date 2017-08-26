@@ -5,8 +5,7 @@
         <title>TODO supply a title</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>
-     <script>
+  <script>
 
             function texto()
             {
@@ -15,13 +14,18 @@
 
             }
 
-</script>
+  </script> <style>
+      input{
+          border-color: aquamarine;
+      }
+  </style>  </head>
+    
     <body>
         <div>TODO write content</div>
         <form name="formulario" method="post" action="JSPFormulario.jsp">
-            <input type="text" placeholder="nombre" name="nombreA"  onkeypress="texto()" id="nombreA" required>
-            <input type="text" placeholder="ApellidoPA" name="paterno" onkeypress="texto()" id="paterno" required>
-            <input type="text" placeholder="ApellidoMa" name="materno" onkeypress="texto()"  id="materno" required>
+            <input type="text" placeholder="nombre" name="nombreA"  onkeypress="texto()" id="nombreA" required><br><br>
+            <input type="text" placeholder="ApellidoPA" name="paterno" onkeypress="texto()" id="paterno" required><br><br>
+            <input type="text" placeholder="ApellidoMa" name="materno" onkeypress="texto()"  id="materno" required><br><br>
             <input type="text" placeholder="Escuela" name="escuela" id="escuela" required>
             <input type="submit" name="button " id="button">
         </form>
